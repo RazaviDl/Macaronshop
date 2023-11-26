@@ -172,16 +172,6 @@ a.item {
   position: relative;
 }
 
-.item:focus~.sub-menu,
-.sub-menu:hover,
-.nav-bottom a:focus~.sub-menu {
-  display: flex;
-  opacity: 1;
-  padding-top: 10px;
-  transition: all 0.3s ease;
-  visibility: visible;
-}
-
 .sub-menu {
   gap: 5px;
   padding-left: 22px;
@@ -191,9 +181,18 @@ a.item {
   background-color: #F7EBE5;
   width: 150px;
   border-radius: 0 0 10px 10px;
-  opacity: 0;
   visibility: hidden;
+  display: flex;
 }
+
+.item:focus~.sub-menu,
+.sub-menu:hover,
+.nav-bottom a:focus~.sub-menu {
+  visibility: visible;
+  padding-top: 10px;
+  transition: all .3s ease;
+}
+
 
 .sub-menu-bottom {
   padding-left: 0;
@@ -202,7 +201,7 @@ a.item {
 }
 
 .header-bottom {
-  background: url("../img/Background.png") no-repeat;
+  background: url("../img/Background.jpg") no-repeat;
   background-size: cover;
   height: 475px;
 }
@@ -422,19 +421,19 @@ h2 {
 }
 
 .action-image1 {
-  background-image: url(../img/Action1.png);
+  background-image: url(../img/Action1.jpg);
 }
 
 .action-image2 {
-  background-image: url(../img/Action2.png);
+  background-image: url(../img/Action2.jpg);
 }
 
 .action-image3 {
-  background-image: url(../img/Action3.png);
+  background-image: url(../img/Action3.jpg);
 }
 
 .action-image4 {
-  background-image: url(../img/Action4.png);
+  background-image: url(../img/Action4.jpg);
 }
 
 .ribbon {

@@ -7,6 +7,18 @@ $(document).ready(function () {
         $('.burg-menu').removeClass('active');
         $('.burg-menu').addClass('disactive');
     })
+    for(let j = 1; j < 5; j++){
+        $('.item-' + j).click(function(){
+            $('.sub-menu-' + j).toggleClass('active');
+            $('.item-' + j).toggleClass('active');
+            for(let i = 1; i < 5; i++){
+                if (i == j)
+                    continue
+                $('.sub-menu-' + i).removeClass('active');
+                $('.item-' + i).removeClass('active');
+            }
+        })
+    }
 });
 
 new Swiper('.header-slider', {

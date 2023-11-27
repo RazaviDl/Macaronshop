@@ -162,14 +162,10 @@ a.logo {
   transition: all 0.2s ease;
 }
 
-.item:focus img[alt="Vector"],
-.nav-bottom a:focus img[alt="Vector"] {
+.item.active img[alt="Vector"],
+.nav-bottom a.active img[alt="Vector"] {
   transform: rotate(-180deg);
   transition: all 0.5s ease;
-}
-
-a.item {
-  position: relative;
 }
 
 .sub-menu {
@@ -185,9 +181,7 @@ a.item {
   display: flex;
 }
 
-.item:focus~.sub-menu,
-.sub-menu:hover,
-.nav-bottom a:focus~.sub-menu {
+.sub-menu.active {
   visibility: visible;
   padding-top: 10px;
   transition: all .3s ease;

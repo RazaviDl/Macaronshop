@@ -195,7 +195,7 @@ a.logo {
 }
 
 .header-bottom {
-  background: url("../img/Background.jpg") no-repeat;
+  background: url("../img/Background.webp") no-repeat;
   background-size: cover;
   height: 475px;
 }
@@ -415,19 +415,19 @@ h2 {
 }
 
 .action-image1 {
-  background-image: url(../img/Action1.jpg);
+  background-image: url(../img/Action1.webp);
 }
 
 .action-image2 {
-  background-image: url(../img/Action2.jpg);
+  background-image: url(../img/Action2.webp);
 }
 
 .action-image3 {
-  background-image: url(../img/Action3.jpg);
+  background-image: url(../img/Action3.webp);
 }
 
 .action-image4 {
-  background-image: url(../img/Action4.jpg);
+  background-image: url(../img/Action4.webp);
 }
 
 .ribbon {

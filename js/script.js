@@ -68,7 +68,7 @@ new Swiper('.mobile-action-list', {
 
 new Swiper('.news-blocks', {
     slidesPerGroup: 1,
-    slidesPerView: 0,
+    slidesPerView: 1,
     speed: 400,
     spaceBetween: 28,
     breakpoints: {

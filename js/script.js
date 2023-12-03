@@ -88,5 +88,3 @@ new Swiper('.news-blocks', {
         clickable: true
     },
 });
-
-console.log("asdfasf")

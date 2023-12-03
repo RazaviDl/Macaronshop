@@ -64,7 +64,7 @@ a {
 }
 
 .mobile-nav,
-.mobile-header-bottom,
+.mobile-first-block,
 .mobile-set,
 .mobile-footer-center,
 .mobile-footer-bottom,
@@ -194,13 +194,13 @@ a.logo {
   width: max-content;
 }
 
-.header-bottom {
+.first-block {
   background: url("../img/Background.webp") no-repeat;
   background-size: cover;
   height: 475px;
 }
 
-.hb-content {
+.first-block-content {
   padding: 148px 0;
   margin-left: auto;
   max-width: 499px;
@@ -220,7 +220,7 @@ h2 {
   text-transform: uppercase;
 }
 
-.hb-content .since {
+.first-block-content .since {
   display: flex;
   align-items: center;
   gap: 9px;
@@ -228,11 +228,11 @@ h2 {
   padding-bottom: 24px;
 }
 
-.hb-content .since h3 {
+.first-block-content .since h3 {
   font-size: 16px;
 }
 
-.hb-content h1 {
+.first-block-content h1 {
   text-align: center;
   font-size: 42px;
   padding-bottom: 13px;
@@ -246,7 +246,7 @@ h2 {
   margin: 0;
 }
 
-.hb-content p {
+.first-block-content p {
   max-width: 500px;
   font-size: 18px;
   text-align: center;
